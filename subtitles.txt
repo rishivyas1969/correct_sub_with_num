@@ -1,0 +1,619 @@
+0
+1
+00:00:00,360 --> 00:00:01,230
+Hi again.
+
+
+2
+00:00:01,230 --> 00:00:07,590
+Previously what I did was I opened Visual Studio Code, the editor that I'll use in this course to write
+
+
+3
+00:00:07,590 --> 00:00:11,290
+Python code and then in the Visual Studio Code editor,
+3
+
+4
+00:00:11,610 --> 00:00:17,970
+I opened a terminal, new terminal and then I started a python session which you can do with either Python
+
+
+5
+00:00:18,330 --> 00:00:21,770
+if you're on Windows, or Python 3 if you are on Mac.
+
+
+6
+00:00:22,560 --> 00:00:29,700
+So that will start a Python session, and you can see these three arrows, that means Python is now running,
+6
+
+7
+00:00:29,700 --> 00:00:35,250
+and you can start to write Python code.
+
+
+8
+00:00:35,250 --> 00:00:39,000
+So that code for example gives you the current time.
+
+
+9
+00:00:39,000 --> 00:00:40,130
+Great.
+
+
+10
+00:00:40,200 --> 00:00:49,920
+But what happens now if I close Visual Studio Code and then the next day I open it again, and then I
+
+
+11
+00:00:49,920 --> 00:00:51,530
+go to the terminal, new terminal.
+
+
+12
+00:00:51,900 --> 00:00:56,600
+You'll see that the code I wrote in the previous session has disappeared.
+
+
+13
+00:00:56,610 --> 00:01:01,290
+So when you start Python with Python, or Python 3 that's an interactive shell.
+
+
+14
+00:01:01,650 --> 00:01:08,100
+It lets you test the code to see what output you get quickly,
+but it doesn't let you save the cod.
+
+
+15
+00:01:08,100 --> 00:01:09,750
+If you want to reuse the code,
+15
+
+16
+00:01:09,930 --> 00:01:12,110
+you want to save it in a file.
+
+
+17
+00:01:12,180 --> 00:01:14,370
+That's what we're going to do now.
+
+
+18
+00:01:14,430 --> 00:01:24,060
+First of all, you want to go to file, and then add a folder 
+to the workspace. With that's what you want to do
+
+
+19
+00:01:24,060 --> 00:01:26,990
+is you want to pick a folder in your computer.
+
+
+20
+00:01:27,030 --> 00:01:29,560
+For example I have created an empty folder here.
+
+
+21
+00:01:29,670 --> 00:01:31,110
+I named it the basics.
+
+
+22
+00:01:31,110 --> 00:01:32,950
+You can name it whatever you want.
+
+
+23
+00:01:33,360 --> 00:01:42,390
+You want to pick that folder so click add, and that folder will be added to the visual studio code workspace now.
+
+
+24
+00:01:42,390 --> 00:01:50,580
+You can see the name of the folder here and now what I can do is I can go to file, and go to new
+
+
+25
+00:01:50,580 --> 00:01:54,160
+file or you can just click here.
+
+
+26
+00:01:54,270 --> 00:01:55,160
+It's the same thing.
+
+
+27
+00:01:55,170 --> 00:01:57,940
+This new file icon.
+
+
+28
+00:01:58,470 --> 00:02:06,510
+And then give a name to the file name it whatever you want except of datetime
+
+
+29
+00:02:06,510 --> 00:02:08,200
+dot py.
+
+
+30
+00:02:08,340 --> 00:02:13,830
+Don't do that because we are using the datetime module and Python will get confused if you use that
+
+
+31
+00:02:13,830 --> 00:02:14,360
+name.
+
+
+32
+00:02:14,370 --> 00:02:16,170
+So use whatever name you like.
+
+
+33
+00:02:16,170 --> 00:02:26,490
+I'll just use basics.py. Press enter and now a file 
+has been created in the basics folder.
+
+
+34
+00:02:27,270 --> 00:02:28,190
+If you don't trust me
+
+
+35
+00:02:28,190 --> 00:02:30,780
+just go to your file explorer.
+
+
+36
+00:02:30,810 --> 00:02:32,610
+What you have on Windows.
+
+
+37
+00:02:32,610 --> 00:02:38,790
+Windows Explorer, or the Finder on Mac,
+and you'll see that the basics.py file
+
+
+38
+00:02:38,790 --> 00:02:40,920
+in my case has been created in that folder.
+
+
+39
+00:02:41,670 --> 00:02:47,710
+So now we are actually editing that file inside Visual Studio Code editor.
+
+
+40
+00:02:47,730 --> 00:02:53,760
+Now here, I am going to write the same code that I wrote in the Python interactive shell.
+
+
+41
+00:02:57,670 --> 00:02:59,560
+Once you are done writing the code
+
+
+42
+00:02:59,560 --> 00:03:11,200
+make sure to save it, either go to File and click on Save,
+or just use the shortcut Control S, or command S.
+
+
+43
+00:03:11,290 --> 00:03:15,940
+Sop control S if you are on Windows, Command S if you were on Mac.
+
+
+44
+00:03:16,220 --> 00:03:20,440
+And then if you want to execute this code you want to click on the terminal.
+
+
+45
+00:03:20,440 --> 00:03:22,360
+Now be careful here.
+
+
+46
+00:03:22,360 --> 00:03:25,960
+Currently we are inside the Python session.
+
+
+47
+00:03:25,960 --> 00:03:31,470
+You can see these arrows. If you have these arrows that means you are inside the Python session.
+
+
+48
+00:03:31,480 --> 00:03:33,700
+We want to exit the Python session now.
+
+
+49
+00:03:33,700 --> 00:03:36,960
+We are not writing interactive code.
+
+
+50
+00:03:37,020 --> 00:03:43,180
+We are going to execute this file.
+To execute the file we want to be on the terminal.
+
+
+51
+00:03:43,180 --> 00:03:51,430
+So click exit here with these round parentheses,
+press enter and you are back on the terminal.
+
+
+52
+00:03:51,430 --> 00:03:57,730
+Now here you can write Python which is usually the commands on Windows, or Python 3 which is usually
+
+
+53
+00:03:57,730 --> 00:04:00,880
+the command on Mac and Linux, use whatever works for you.
+
+
+54
+00:04:01,000 --> 00:04:05,540
+And then here you want to type the name of the file that you have created.
+
+
+55
+00:04:05,560 --> 00:04:16,340
+In my case that is basics.py, .py, execute, and you're not going to get an output.
+
+
+56
+00:04:16,760 --> 00:04:23,070
+So in the Python interactive shell, we can use this icon here to split the terminal so we have two
+
+
+57
+00:04:23,070 --> 00:04:23,760
+terminals now.
+
+
+58
+00:04:24,180 --> 00:04:30,210
+I can use a one as a terminal here and I can use the other as an interactive Python shell.
+
+
+59
+00:04:30,210 --> 00:04:32,390
+By just typing Python, or Python 3.
+
+
+60
+00:04:32,460 --> 00:04:35,190
+So here we can write code interactively.
+
+
+61
+00:04:35,880 --> 00:04:41,600
+You can write lines of code they're like import datetime, and then datetime.datetime.now() and
+
+
+62
+00:04:41,610 --> 00:04:47,140
+you get the output as you can see, here we didn't get an output.
+
+
+63
+00:04:47,160 --> 00:04:54,060
+The reason is that we didn't give an instruction in the file of what to do with these results here.
+
+
+64
+00:04:54,060 --> 00:05:02,400
+This will produce this result as you can see in here,
+but you need to print out the result explicitly
+
+
+65
+00:05:02,580 --> 00:05:10,350
+when you write code in a file. That is difference, the big difference between the interactive shell and
+
+
+66
+00:05:10,350 --> 00:05:11,930
+the python files.
+
+
+67
+00:05:11,970 --> 00:05:20,670
+So in order to do that you want to add print just before that expression, and this expression now should
+
+
+68
+00:05:20,670 --> 00:05:22,100
+go inside the parentheses.
+
+
+69
+00:05:22,440 --> 00:05:31,140
+So just after print open a parentheses, and after this expression close the parentheses, so this expression
+
+
+70
+00:05:31,140 --> 00:05:35,040
+is inside the parentheses of the print function.
+
+
+71
+00:05:35,040 --> 00:05:43,230
+This is the function, it prints out something, in this case, this is something, again save the code with
+
+
+72
+00:05:43,230 --> 00:05:44,810
+Control S, or Command S.
+
+
+73
+00:05:44,830 --> 00:05:47,490
+Don't forget. And then here,
+73
+
+74
+00:05:47,550 --> 00:05:55,740
+you can either write the command again, or just press the upper arrow key to call the previously executed
+
+
+75
+00:05:56,100 --> 00:05:56,880
+command.
+
+
+76
+00:05:56,880 --> 00:06:05,850
+Python 3 basics.py, execute and you get the output.
+As you can see this is formatted a bit different
+
+
+77
+00:06:06,300 --> 00:06:11,010
+than this here.
+
+
+78
+00:06:11,140 --> 00:06:19,000
+The reason is that in the interactive shell of interactive Python Shell is meant more for you as a programmer
+
+
+79
+00:06:19,060 --> 00:06:20,500
+to test things out.
+
+
+80
+00:06:21,010 --> 00:06:27,530
+So when something is called like that you get more of a raw output.
+
+
+81
+00:06:27,610 --> 00:06:34,120
+So it says, it tells you that this is the date time and it gives you the year divided by commas from
+
+
+82
+00:06:34,120 --> 00:06:34,870
+the month.
+
+
+83
+00:06:34,900 --> 00:06:41,800
+And here you get the same, basically the same result,
+but formatted in a nicer way because this is
+
+
+84
+00:06:41,800 --> 00:06:45,370
+meant more for for the end user to see that datetime
+
+
+85
+00:06:45,370 --> 00:06:58,400
+in this case. If you want a nice format in here,
+you want to use the print function, print, open and close
+
+
+86
+00:06:58,400 --> 00:07:06,740
+parenthesis and basically you get the same format as in here so you can use a print function both in
+
+
+87
+00:07:06,740 --> 00:07:14,270
+the Python file and in the terminal, but you can not have implicit printing in a Python file like we
+
+
+88
+00:07:14,270 --> 00:07:19,760
+did with the Python interactive shell in here.
+
+
+89
+00:07:19,760 --> 00:07:25,610
+I've noticed that some students what they do is they are inside the Python interactive shell, which you
+
+
+90
+00:07:25,610 --> 00:07:32,060
+can tell when you see these three arrows and inside here what they try to do is they try to execute
+
+
+91
+00:07:32,660 --> 00:07:36,050
+a Python file for example.
+
+
+92
+00:07:36,050 --> 00:07:38,280
+They try to do this. If I press enter now
+
+
+93
+00:07:38,280 --> 00:07:47,330
+I'm going to get a syntax error, that is because in this interactive shell Python expects Python code
+
+
+94
+00:07:47,890 --> 00:07:48,540
+like these
+
+
+95
+00:07:48,600 --> 00:07:55,760
+things here, import datetime, and datetime.datetime.now(), 
+but this is not Python code,
+95
+
+96
+00:07:55,760 --> 00:07:58,780
+this is actually a command you give to your computer.
+
+
+97
+00:07:58,850 --> 00:08:01,810
+The computer knows that it has this kind of program.
+
+
+98
+00:08:01,820 --> 00:08:10,730
+Python 3 so it opens, it calls the Python program,
+and then it executes this file with the Python
+
+
+99
+00:08:10,730 --> 00:08:11,600
+program.
+
+
+100
+00:08:11,600 --> 00:08:18,860
+So this is a command you give to your computer and you do that through the terminal in this here.
+
+
+101
+00:08:22,120 --> 00:08:25,790
+Your terminal will understand that,
+but not the Python interactive shell.
+
+
+102
+00:08:26,590 --> 00:08:31,430
+And lastly let's make this program look more like a program.
+
+
+103
+00:08:31,450 --> 00:08:36,180
+So currently we get the date time like this as output.
+
+
+104
+00:08:36,250 --> 00:08:42,070
+But what you can do is you can add another print function here, and inside the parentheses just write
+
+
+105
+00:08:42,070 --> 00:08:45,140
+something inside quotes.
+
+
+106
+00:08:45,250 --> 00:08:49,650
+So it should be inside duble quotes, and write something like.
+
+
+107
+00:08:49,660 --> 00:08:59,230
+In this case, I'd like to write: "The date and time is".
+Make sure to save with file, save or Control S, or
+
+
+108
+00:08:59,380 --> 00:09:02,000
+Command S, and then go here.
+
+
+109
+00:09:02,160 --> 00:09:10,270
+Upper arrow key, execute with enter, and you get this output,
+the datetime, "The date and time is", and you
+
+
+110
+00:09:10,270 --> 00:09:13,480
+get the current date and time in here.
+
+
+111
+00:09:13,480 --> 00:09:20,890
+Now if you are one of them who is wondering how can we get both these lines in one single line, to do
+
+
+112
+00:09:20,890 --> 00:09:27,090
+that you need to use one single print function that gets two arguments.
+
+
+113
+00:09:27,100 --> 00:09:34,660
+So this is the first arguments that print will print out,
+and the second argument would be 
+113
+
+114
+00:09:34,720 --> 00:09:37,390
+datetime.datetime.().
+
+
+115
+00:09:40,570 --> 00:09:49,630
+So the expression that outputs the current datetime, don't forget to save, go here, execute and this is
+
+
+116
+00:09:49,630 --> 00:09:59,040
+the output, so the date and time is this one in here,
+and that is how you can create Python programs.
+
+
+117
+00:09:59,110 --> 00:10:04,120
+So basics.py is the python program I created in this lecture.
+
+
+118
+00:10:04,120 --> 00:10:04,810
+Talk to you later.
+one in here,
+and that is how you can create Python programs.
+116
+
+117
+00:09:59,110 --> 00:10:04,120
+So basics.py is the python program I created in this lecture.
+117
+
+118
+00:10:04,120 --> 00:10:04,810
+Talk to you later.
